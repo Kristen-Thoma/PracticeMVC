@@ -1,0 +1,30 @@
+﻿<h2>Register</h2>
+<br />
+
+<form method="post" asp-controller="Student" asp-action="StudentInfo">
+
+    <div class="form-group">
+        <label>First Name</label>
+        <input type="text" name="firstName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Last Name</label>
+        <input type="text" name="lastName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <select name="Career Path">
+            <option value="Career Path">Career Path</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Devops">Devops</option>
+            <option value="Security">Security</option>
+            <option value="Machine Learning">Machine Learning</option>
+            <option value="Artificial Intelligence">Articifial Intelligence</option>
+        </select>
+    </div>
+
+    <input id="register" type="submit" value="Register" />
+
+</form>
+
